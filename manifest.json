@@ -1,0 +1,58 @@
+{
+	"ManifestVersion": "manifestGen 1.0.1",
+	"ManifestDocumentation": "https://mep.avanade.com/docs/self-service/ssp_public/guidance",
+	"ProjectName": "Devops Practitioner",
+	"ProjectDescription": "DevOps Practitioners series",
+	"RepositoryName": "devops-practitioner",
+	"Cost": "0",
+	"DescriptionFile": "/README.md",
+	"RunTimeCost": "0",
+	"README": "https://dev.azure.com/innersource/DevOps%20Training%20and%20Labs/_git/devops-practitioner?path=%2FREADME.md&_a=preview",
+	"Icon": "",
+	"ExportCompliance": false,
+	"ContributionAllowed": true,	
+	"Maintainers": [],
+	"tags": [
+		"Devops Practitioners"
+	],
+	"preconditions": [],
+	"inclusions": {
+		"Continuous Integration": {
+			"Automated Build": false,
+			"Unit Testing": false
+		},
+		"Continuous Deployment": {
+			"Automated Deployment": false
+		},
+		"Project Management": {
+			"Work Items": true,
+			"Queries": true,
+			"Dashboard": true
+		}
+	},
+	"Repositories":[],
+	"ThirdPartyTools": [],
+	"parameters": [],
+	"components": [
+		{
+			"name": "",
+			"type": "",
+			"workdir": "",
+			"extensions": [],
+			"endpoints": [],
+			"pipelines": {
+				"build": [],
+				"release": []
+			},
+			"wiki": [							
+					{
+ 						  "type":"codeWiki",
+   						  "documentpath": "/profiles",
+   						  "name": "Profiles",
+   						  "RepositoryName":"devops-practitioner"
+   					}
+			],
+			"workItems": []
+		}
+	]
+}

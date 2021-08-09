@@ -1,0 +1,113 @@
+{
+    "features": [
+      {
+        "title": "Prework",
+        "description": "To help attendees get ready for the DevOps practitioners series, some activities need to be completed before the first session.",
+        "pbis": [
+          {
+            "title": "Pre-session introduction",
+            "description": "<ol><li><span style=\"\">Create a feature branch with the pattern feature/(firstname.lastname)*&nbsp;</span></li><li><span style=\"\">Create a new folder in root of Students repo with the following pattern (firstname.lastname)*</span></li><li><span style=\"\">Copy content from .template folder found in Students repo</span></li><li><span style=\"\">Update index.md with the following:</span></li></ol><ul><ol><li><span style=\"\">Practitioners name added h1 section of markdown</span></li><li><span style=\"\">Add PNG profile picture to images folder in from step 1</span></li><li>Update TC, Level, and Region to align with practitioners info</li><li>Update skills, certs, DevOps experience, and bio</li></ol></ul><div>Commit changes to feature branch and send a pull request.</div><div><br></div><div>*Change firstname and lastname to align with your name.</div><div></div>",
+            "acceptance criteria": "Your profile will be in the main branch"
+          },
+          {
+            "title": "Input initial learning objectives",
+            "description": "<div>The DevOps Practitioners series looks to provide value to attendees coming from all of our Talent Communities. This allows us the ability to explore many areas that support our delivery objectives. To help guidance our sessions and shape our content into the future, we look to better understand our attendees’ learning objectives and work to answer as much as possible. Please take time before the series provides the facilitators and other attendees an understanding of your learning objectives.</div><div><br></div>Common Learning Objectives:<div><br></div><ul><li>Learn about DevOps</li><li>Learn about Azure DevOps (tool)</li><li>Learn about CI/CD</li><li>Automated testing</li><li>Automated security</li></ul>",
+            "acceptance criteria": "You have entered your initial learning objectives before the series starts"
+          },
+          {
+            "title": "Technical activities to be completed before the course starts",
+            "description": "Exercise 1 - PBI 1 Description",
+            "acceptance criteria": "You will be able to run SmartHotel360 once complete",
+            "tasks": [
+              {
+                "title": "Azure Subscription - Required",
+                "description": "<div>Make sure you have your Azure Subscription from your Visual Studio benefits. Please review this video to show how you can check - <a href=\"https://web.microsoftstream.com/video/d23c74d5-9583-47a7-b71a-5c5eccee315b\">video</a></div>"
+              },
+              {
+                "title": "Move Azure Subscription from Avanade's Azure Active Directory (AAD) to a new AAD - Required",
+                "description": "<div>To complete the exercises, you must be the global admin of the associated Azure Active Directory (ADD) associated with your Azure subscription. Please review this video to show how to complete this task - <a href=\"https://web.microsoftstream.com/video/f01629fd-398b-4ee9-8840-68748342a385\">video</a></div>"
+              },
+              {
+                "title": "Create a service princpile - Required",
+                "description": "To connect Azure DevOps, GitHub Enterprise and other services, you must have a service principle. This task is here to help you create it."
+              },
+              {
+                "title": "Created a dedicated Azure DevOps organization",
+                "description": "https://aex.dev.azure.com/"
+              },
+              {
+                "title": "Make a request for free Azure Pipelines in new organizations - Required",
+                "description": "<div>To complete the hands-on labs in your own Azure DevOps organization, assuming it is new, you need to make a request to Microsoft to enable your organization to use the free Azure Pipelines. This task needs to be completed 1 - 2 days before the start of the class by filling out the form <a href=\"https://aka.ms/azpipelines-parallelism-request\">here</a>.<div><br></div>If you do not make this request you will get the following error - ##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request</div>"
+              },
+              {
+                "title": "Install Git on local machine - Required",
+                "description": "Install Git on local machine - Required"
+              },
+              {
+                "title": "Install VS Code on local machine - Optimal",
+                "description": "Install VS Code on local machine - Optimal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Exercise 1",
+        "description": "Exercise 1",
+        "pbiS": [
+          {
+            "title": "Provision SmartHotel360 Showcase",
+            "description": "Exercise 1 - PBI 1 Description",
+            "acceptance criteria": "<ul><li>New project created</li><li>SmartHotel360 repo cloned into new project</li><li>All build and release definitions imported</li><li>All build and releases successfully ran</li></ul>",
+            "tasks": [
+              {
+                "title": "Review new project",
+                "description": "Review new project"
+              },
+              {
+                "title": "Review SonarQube",
+                "description": "Review SonarQube"
+              },
+              {
+                "title": "Make change to homepage of SmartHotel360",
+                "description": "Make minor change to homepage and observe the CI/CD process and all of the steps."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Exercise 2",
+        "description": "Exercise 2",
+        "pbis": [
+          {
+            "title": "Create a build pipeline with Azure Pipelines",
+            "description": "https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/?WT.mc_id=devopsgen_inproduct-15843-dabrady",
+            "acceptance criteria": "<ul><li>Create a build pipeline in Azure Pipelines</li><li>Map manual build steps to automated build tasks</li><li>Publish your builds so others can access them</li><li>Use templates to build multiple configurations</li></ul>"
+          }
+        ]
+      },
+      {
+        "title": "Exercise 3",
+        "description": "Exercise 3",
+        "pbis": [
+          {
+            "title": "Implement a code workflow in your build pipeline by using Git and GitHub",
+            "description": "https://docs.microsoft.com/en-us/learn/modules/implement-code-workflow/?WT.mc_id=devopsgen_inproduct-15843-dabrady",
+            "acceptance criteria": ""
+          }
+        ]
+      },
+      {
+        "title": "Exercise 4",
+        "description": "Exercise 4",
+        "pbis": [
+          {
+            "title": "Create a multistage pipeline by using Azure Pipelines",
+            "description": "https://docs.microsoft.com/en-us/learn/modules/implement-code-workflow/?WT.mc_id=devopsgen_inproduct-15843-dabrady",
+            "acceptance criteria": ""
+          }
+        ]
+      }
+    ]
+  }

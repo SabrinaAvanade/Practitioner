@@ -1,20 +1,35 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Welcome to the DevOps Practitioners Series
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repository provides a home base for practitioners. Here you will find information about how this series will operate, including pre-work and how practitioners can communicate with the facilitators and other students. During this course, we are going to cover the cross-functional nature of DevOps and leverage this Azure DevOps project as our collaboration hub.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Before the series starts, there are several quick activities that you need to complete. Please review the pre-work section.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Pre-Work
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+### Introduction Exercise
+
+Please take 10 minutes before our first session and provide a quick update to your profile. We will use this at the start of the series to speed up introductions and also validate you have access to the project. Practitioners should have an assigned work item that outlines how to introduce yourself to the group.
+
+### Foundations of DevOps at Avanade
+
+The self-study course found [here](devopsAtAvanade) should be completed before the first day of training and will take students through how the what, why, and how of DevOps at Avanade.  The estimated time to go through the training is 45 minutes and will ensure the practitioner will be prepared for day 1.
+
+## Course Mechanics
+
+To get everyone comfortable using Azure DevOps, we will use Azure Boards and other capabiltiies through the series to communicate and collaborate our progress and follow up with any questions.
+
+We will break the three weeks up into a sprint per week. We will outline what we are looking to achieve for each week.  The group will leverage Azure Boards and a set of work items to help with communication and collaboration. Here are the work items we expect to use:
+
+* **Epics**
+* **Features**
+* **Tasks**
+* **Question**: A question tracks an individuals desire to elicit more information.
+* **Impediment**:  Impediment is a hindrance or obstruction in doing something. Impediments can be associated to any Development or Work Item Management Work Item
+ and use work item types like Question to keep communication and collaboration focused.
+
+## Facilitators
+
+* [Keith Lemon](https://www.linkedin.com/in/keithlemon/)
+* [Scott Anderson](https://www.linkedin.com/in/scott-anderson-71a75614/)
+
+If you have questions, please direct them to the facilitators.

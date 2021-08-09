@@ -10,7 +10,7 @@
             "acceptance criteria": "Your profile will be in the main branch"
           },
           {
-            "title": "Input initial learning objectives",
+            "title": "Initial learning objectives",
             "description": "<div>The DevOps Practitioners series looks to provide value to attendees coming from all of our Talent Communities. This allows us the ability to explore many areas that support our delivery objectives. To help guidance our sessions and shape our content into the future, we look to better understand our attendees’ learning objectives and work to answer as much as possible. Please take time before the series provides the facilitators and other attendees an understanding of your learning objectives.</div><div><br></div>Common Learning Objectives:<div><br></div><ul><li>Learn about DevOps</li><li>Learn about Azure DevOps (tool)</li><li>Learn about CI/CD</li><li>Automated testing</li><li>Automated security</li></ul>",
             "acceptance criteria": "You have entered your initial learning objectives before the series starts"
           },

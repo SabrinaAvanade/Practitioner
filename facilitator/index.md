@@ -7,3 +7,27 @@ The course guides attendees in a manner that helps them when they run into issue
 ## Schedule
 
 The series normally run over three weeks with two classes a week. The classes normally run for 2.5 hours and provide facilitators and attendees an opportunity to over the foundational material and do some hands work. Depending on the need of the attendees, some amount of office hours may be needed, but attendees should complete all prerequisites before the start of the series to avoid unneeded office hours.
+
+* Prework (work that needs to be done before the start of the series)
+  * Pre-series introduction
+  * Input initial learning objectives
+  * Technical activities to be completed before the course starts
+    * Azure Subscription - Required
+    * Move Azure Subscription from Avanade's Azure Active Directory (AAD) to a new AAD - Required
+    * Create a service principle - Required
+    * Created a dedicated Azure DevOps organization
+    * Make a request for free Azure Pipelines in new organizations - Required
+    * Install Git on local machine - Required
+    * Install VS Code on local machine - Optimal
+
+* Week 1
+  * Session 1 - Foundation of DevOps at Avanade
+  * Session 2 - Tour of Azure DevOps and GitHub Enterprise
+
+* Week 2
+  * Session 3 - Flow (Three Ways)
+  * Session 4 - Feedback (Three Ways)
+
+* Week 3
+  * Session 5 - Experimentation
+  * Session 6 - Security and Compliance

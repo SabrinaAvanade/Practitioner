@@ -24,6 +24,15 @@ The series normally runs over three weeks, with two classes a week. The classes 
 
 * Week 1
   * [Session 1 - Foundation of DevOps at Avanade](https://dev.azure.com/innersource/fd9e01e9-6bb5-4e4c-a7eb-b6322dc637ba/_apis/git/repositories/cf2f8334-26ed-4585-91bb-b5879c7cd1b8/items?path=%2Ffacilitator%2FADP-Session-01.pptx&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true)
+  * Learning objectives:  
+    * Attendees will learn to be comfortable speaking about DevOps in formal and informal communications
+    * We will cover how DevOps is understood in the broader industry
+    * We will cover how we at Avanade understand DevOps
+    * Attendees will learn how Avanade leverages DevOps from multiple phases including sells, solutioning, and delivery
+    * Attendees will learn about different offerings, approaches, and tools that are leveraged today for DevOps work
+    * Attendees will learn about Avanade’s DevOps Standard and Framework
+    * Attendees will learn how to apply DevOps patterns and practices with Azure DevOps, GitHub Enterprise, and other products/tools
+
   * Session 2 - Tour of Azure DevOps and GitHub Enterprise
 
 * Week 2

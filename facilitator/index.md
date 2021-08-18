@@ -26,8 +26,12 @@ The series normally run over three weeks with two classes a week. The classes no
 
 * Week 2
   * Session 3 - Flow (Three Ways)
+    * Exercise 1
   * Session 4 - Feedback (Three Ways)
+    * Exercise 2
 
 * Week 3
   * Session 5 - Experimentation
+    * Exercise 3
   * Session 6 - Security and Compliance
+    * Exercise 4

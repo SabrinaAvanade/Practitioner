@@ -1,12 +1,16 @@
 # DevOps Practitioners Facilitator Guide
 
-This guide provides facilitators of the DevOps Practitioners series a high-level understanding of how the course can be conducted, though changing suite your audience is expected. Please note that this series is intended for all talent communities and will provide the knowledge to attendees about how Avanade leverage DevOps to deliver value as a team for our clients. This series will stretch some attendees and have them working on activities normally considered outside of their area, but that is by plan. Experience attendees we can provide stretch goals and give them responsibilities to help facilitate some of the supporting course activities like approving pull requests.
+This guide provides facilitators a high-level framework to understand how the DevOps Practitioners series can be conducted. The series is intended for all talent communities and provides attendees with the knowledge of how we at Avanade leverage DevOps to deliver value as a team for our clients. 
+
+This series is likely to stretch some attendees and have them working on activities/tasks normally outside of their roles and responsibilities, but that is by design. For other more experienced attendees, alternate exercises should be given to challenge their ability. For some attendees, we should give them responsibilities to help with facilitation activities.
+
+The approach can be modified to align with the attendees needs.
 
 The course guides attendees in a manner that helps them when they run into issues.
 
 ## Schedule
 
-The series normally run over three weeks with two classes a week. The classes normally run for 2.5 hours and provide facilitators and attendees an opportunity to over the foundational material and do some hands work. Depending on the need of the attendees, some amount of office hours may be needed, but attendees should complete all prerequisites before the start of the series to avoid unneeded office hours.
+The series normally runs over three weeks, with two classes a week. The classes normally run for 2.5 hours and provide facilitators and attendees an opportunity to over the foundational material and do some hands work. Depending on the need of the attendees, some amount of office hours may be needed, but attendees should complete all prerequisites before the start of the series to avoid unneeded office hours.
 
 * Prework (work that needs to be done before the start of the series)
   * Pre-series introduction

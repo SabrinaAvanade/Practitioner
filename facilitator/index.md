@@ -4,9 +4,7 @@ This guide provides facilitators a high-level framework to understand how the De
 
 This series is likely to stretch some attendees and have them working on activities/tasks normally outside of their roles and responsibilities, but that is by design. For other more experienced attendees, alternate exercises should be given to challenge their ability. For some attendees, we should give them responsibilities to help with facilitation activities.
 
-The approach can be modified to align with the attendees needs.
-
-The course guides attendees in a manner that helps them when they run into issues.
+There is a set of work items that get generated with this content, and a set of decks. Please review the content before the series and make any recommendations to the base materail in the following backlog.
 
 ## Schedule
 

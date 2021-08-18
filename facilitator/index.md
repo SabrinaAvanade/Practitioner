@@ -23,7 +23,7 @@ The series normally runs over three weeks, with two classes a week. The classes 
     * Install VS Code on local machine - Optimal
 
 * Week 1
-  * Session 1 - Foundation of DevOps at Avanade
+  * [Session 1 - Foundation of DevOps at Avanade](https://dev.azure.com/innersource/fd9e01e9-6bb5-4e4c-a7eb-b6322dc637ba/_apis/git/repositories/cf2f8334-26ed-4585-91bb-b5879c7cd1b8/items?path=%2Ffacilitator%2FADP-Session-01.pptx&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true)
   * Session 2 - Tour of Azure DevOps and GitHub Enterprise
 
 * Week 2

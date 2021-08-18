@@ -33,7 +33,7 @@ The series normally runs over three weeks, with two classes a week. The classes 
     * Exercise 2
 
 * Week 3
-  * Session 5 - Experimentation
+  * Session 5 - Experimentation (Three Ways)
     * Exercise 3
   * Session 6 - Security and Compliance
     * Exercise 4

@@ -1,0 +1,32 @@
+{
+  "attendees": [
+    {
+      "name": {
+        "first": "keith",
+        "last": "lemon"
+      },
+      "email": "k.lemon@avanade.com"
+    },
+    {
+      "name": {
+        "first": "adam",
+        "last": "cartwright"
+      },
+      "email": "adam.cartwright@avanade.com"
+    },
+    {
+      "name": {
+        "first": "lukas",
+        "last": "woelfinger"
+      },
+      "email": "lukas.woelfinger@avanade.com"
+    },
+    {
+      "name": {
+        "first": "scott",
+        "last": "anderson"
+      },
+      "email": "scott.anderson@avanade.com"
+    }
+  ]
+}

@@ -10,7 +10,10 @@ Param
     [string] $project,
 
     [Parameter()]
-    [string] $exercisesFile
+    [string] $exercisesFile,
+
+    [Parameter()]
+    [string] $attendeesFile
 )
 
 $ACCESS_TOKEN = $pat
@@ -20,42 +23,7 @@ $TEAMPROJECT = $project
 Write-Output $ACCESS_TOKEN | az devops login
 az devops configure --defaults organization=$COLLECTIONURI project=$TEAMPROJECT
 
-# TODO: Find an approach to get attendee info from excel file either coverted to JSON or some other format
-$attendees =
-@"
-{
-  "attendees": [
-    {
-      "name": {
-        "first": "keith",
-        "last": "lemon"
-      },
-      "email": "k.lemon@avanade.com"
-    },
-    {
-      "name": {
-        "first": "adam",
-        "last": "cartwright"
-      },
-      "email": "adam.cartwright@avanade.com"
-    },
-    {
-      "name": {
-        "first": "lukas",
-        "last": "woelfinger"
-      },
-      "email": "lukas.woelfinger@avanade.com"
-    },
-    {
-      "name": {
-        "first": "scott",
-        "last": "anderson"
-      },
-      "email": "scott.anderson@avanade.com"
-    }
-  ]
-}
-"@ | ConvertFrom-Json
+$attendees = (Get-Content $attendeesFile -Raw) | ConvertFrom-Json
 
 $exercises = (Get-Content $exercisesFile -Raw) | ConvertFrom-Json
 

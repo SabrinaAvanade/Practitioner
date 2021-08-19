@@ -1,0 +1,17 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: PowerShell@2
+  inputs:
+    filePath: '.task-gen/task-generator.ps1'
+    arguments: '-pat ${env:ACCESS_TOKEN} -organization $(SYSTEM.COLLECTIONURI) -project $(SYSTEM.TEAMPROJECT) -exercisesFile .task-gen/exercises.json -attendeesFile .task-gen/attendees.json'

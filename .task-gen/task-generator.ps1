@@ -54,6 +54,16 @@ foreach($feature in $exercises.features){
         Write-Verbose $pbi.title
 
         foreach($attendee in $attendees.attendees){
+
+            # Check if user exists
+            $checkAttendee = az devops user show --user $attendee.email
+
+            if (!$checkAttendee) {
+                Write-Host "Unable to find user account"
+                
+                az devops user add --email-id $attendee.email `
+                   --license-type advanced
+            }
             
             Write-Verbose $attendee.name
 

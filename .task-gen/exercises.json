@@ -28,7 +28,7 @@
                 "description": "<div>To complete the exercises, you must be the global admin of the associated Azure Active Directory (ADD) associated with your Azure subscription. Please review this video to show how to complete this task - <a href=\"https://web.microsoftstream.com/video/f01629fd-398b-4ee9-8840-68748342a385\">video</a></div>"
               },
               {
-                "title": "Create a service princpile - Required",
+                "title": "Create a service principle",
                 "description": "To connect Azure DevOps, GitHub Enterprise and other services, you must have a service principle. This task is here to help you create it."
               },
               {

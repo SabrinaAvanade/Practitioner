@@ -38,9 +38,7 @@ foreach($feature in $exercises.features){
 
     Write-Host $exerciseFeature
 
-    if($exerciseFeature.Count -gt 0){
-    
-    } else {
+    if($exerciseFeature.Count -eq 0){
 
         $exerciseFeature = az boards work-item create `
             --title "$($feature.title)" `
@@ -59,10 +57,15 @@ foreach($feature in $exercises.features){
             $checkAttendee = az devops user show --user $attendee.email
 
             if (!$checkAttendee) {
-                Write-Host "Unable to find user account"
+
+                Write-Verbose "Unable to find user $($attendee.email) in the $($organization) organization."
+
+                $url = "https://vsaex.dev.azure.com/$($organization)/_apis/userentitlements?api-version=5.0-preview.2"
+
+                $body = '{ "accessLevel": { "accountLicenseType": "none", "licensingSource": "msdn" }, "user": { "principalName": "' + $attendee.email + '", "subjectKind": "user" }, "projectEntitlements": [ { "group": { "groupType": "projectContributor" },"projectRef": {"id": "' + (az devops project show --project $($project) | ConvertFrom-Json).id + '" } } ] }'
+
+                Invoke-RestMethod -Uri $url -headers $authHeader -Method POST -Body $body -ContentType 'application/json'
                 
-                az devops user add --email-id $attendee.email `
-                   --license-type advanced
             }
             
             Write-Verbose $attendee.name

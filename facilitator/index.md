@@ -6,7 +6,13 @@ This series is likely to stretch some attendees and have them working on activit
 
 There is a set of work items that get generated with this content, and a set of decks. Please review the content before the series and make any recommendations to the base materail in the following backlog.
 
-## Get Started
+## Class setup
+
+Bootstrap the class project with the [DevOps Practitioners](https://messp.avanade.com/Marketplace/Assets/Devops%20Practitioner) asset in the Self-Service Marketplace.
+
+Once the project is setup you need to update the attendees by updating the attendees.json file in the .task-gen folder.
+
+Add the task generator pipeline into the project.
 
 To create the needed backlog for the series you can leverage the [Task Generator pipline](../.task-gen/task-generator.yml). If you need support on running the predefined backlog message Keith Lemon (k.lemon@avanade.com) for help.
 

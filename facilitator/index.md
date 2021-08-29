@@ -6,6 +6,10 @@ This series is likely to stretch some attendees and have them working on activit
 
 There is a set of work items that get generated with this content, and a set of decks. Please review the content before the series and make any recommendations to the base materail in the following backlog.
 
+## Get Started
+
+To create the needed backlog for the series you can leverage the [Task Generator pipline](../.task-gen/task-generator.yml). If you need support on running the predefined backlog message Keith Lemon (k.lemon@avanade.com) for help.
+
 ## Schedule
 
 The series normally runs over three weeks, with two classes a week. The classes normally run for 2.5 hours and provide facilitators and attendees an opportunity to over the foundational material and do some hands work. Depending on the need of the attendees, some amount of office hours may be needed, but attendees should complete all prerequisites before the start of the series to avoid unneeded office hours.

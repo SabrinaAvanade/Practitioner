@@ -16,12 +16,8 @@ Param
     [string] $attendeesFile
 )
 
-$ACCESS_TOKEN = $pat
-$COLLECTIONURI = "https://dev.azure.com/$($organization)"
-$TEAMPROJECT = $project
-
-Write-Output $ACCESS_TOKEN | az devops login
-az devops configure --defaults organization=$COLLECTIONURI project=$TEAMPROJECT
+Write-Output $pat | az devops login
+az devops configure --defaults organization=$organization project=$project
 
 $attendees = (Get-Content $attendeesFile -Raw) | ConvertFrom-Json
 
@@ -33,8 +29,8 @@ foreach($feature in $exercises.features){
 
     Write-Host $feature.title
 
-    $exerciseFeature = az boards query --project $TEAMPROJECT `
-        --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'Feature' AND [System.TeamProject] = '$TEAMPROJECT' AND [Title] = '$($feature.title)'" | ConvertFrom-Json
+    $exerciseFeature = az boards query --project $project`
+        --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'Feature' AND [System.TeamProject] = '$project' AND [Title] = '$($feature.title)'" | ConvertFrom-Json
 
     Write-Host $exerciseFeature
 
@@ -70,7 +66,7 @@ foreach($feature in $exercises.features){
             
             Write-Verbose $attendee.name
 
-            $attendeeExerciseWorkItem = az boards query --project $TEAMPROJECT --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'product backlog item' AND [System.TeamProject] = '$TEAMPROJECT' AND [Title] = '$($attendee.name.first) to do $($pbi.title)'" | ConvertFrom-Json
+            $attendeeExerciseWorkItem = az boards query --project $project --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'product backlog item' AND [System.TeamProject] = '$project' AND [Title] = '$($attendee.name.first) to do $($pbi.title)'" | ConvertFrom-Json
 
             if($attendeeExerciseWorkItem.Count -gt 0){
 

@@ -29,7 +29,7 @@ foreach($feature in $exercises.features){
 
     Write-Host $feature.title
 
-    $exerciseFeature = az boards query --project $project`
+    $exerciseFeature = az boards query --project $project `
         --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'Feature' AND [System.TeamProject] = '$project' AND [Title] = '$($feature.title)'" | ConvertFrom-Json
 
     Write-Host $exerciseFeature

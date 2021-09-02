@@ -76,6 +76,11 @@ foreach($feature in $exercises.features){
 
                 Write-Verbose "Doesn't Exists"
 
+                #$url = "https://vsaex.dev.azure.com/$($organization)/_apis/wit/workitems/`$Task?api-version=6.0"
+                #$body = '{ "accessLevel": { "accountLicenseType": "none", "licensingSource": "msdn" }, "user": { "principalName": "' + $attendee.email + '", "subjectKind": "user" }, "projectEntitlements": [ { "group": { "groupType": "projectContributor" },"projectRef": {"id": "' + (az devops project show --project $($project) | ConvertFrom-Json).id + '" } } ] }'
+                #Invoke-RestMethod -Uri $url -headers $authHeader -Method POST -Body $body -ContentType 'application/json'
+                
+
                 $attendeePBIWorkItem = az boards work-item create `
                     --title "$($pbi.title)" `
                     --description "$($pbi.description)" `

@@ -1,4 +1,5 @@
 # This isn't complete and more work needs to be done on the PBI; adding description, acceptance criteria as well as all the information around Tasks
+# There is a special character escape issue on line 91
 
 Param
 (
@@ -85,7 +86,7 @@ foreach($feature in $exercises.features){
                 $url = "https://dev.azure.com/$($organizationName)/$($project)/_apis/wit/workitems/`$Product Backlog Item?bypassRules=true&api-version=6.0"
 
                 # Need to figure out how to handle special characters in the text fields
-                
+
                 #$attendeePBIWorkItem = Invoke-RestMethod -Uri $url -headers $authHeader `
                 #    -Method POST `
                 #    -Body "[{ 'op': 'add', 'path': '/fields/System.Title', 'from': null, 'value': '$($pbi.title)' }, `

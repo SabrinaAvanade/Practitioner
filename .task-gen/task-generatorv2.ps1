@@ -34,6 +34,7 @@ Write-Output "Organization Name: $($organizationName)"
 Write-Output "Project Name: $($project)"
 
 
+# Check to see if users are added to organization and add if need be
 foreach($attendee in $attendees.attendees){
 
     # Check if user exists
@@ -45,8 +46,6 @@ foreach($attendee in $attendees.attendees){
 
         $url = "https://vsaex.dev.azure.com/$($organizationName)/_apis/userentitlements?api-version=5.0-preview.2"
 
-        Write-Output "User Entitlment Url: $($url)"
-
         $body = '{ "accessLevel": { "accountLicenseType": "none", "licensingSource": "msdn" }, "user": { "principalName": "' + $attendee.email + '", "subjectKind": "user" }, "projectEntitlements": [ { "group": { "groupType": "projectContributor" },"projectRef": {"id": "' + (az devops project show --project $($project) | ConvertFrom-Json).id + '" } } ] }'
 
         Invoke-RestMethod -Uri $url -headers $authHeader -Method POST -Body $body -ContentType 'application/json'
@@ -56,12 +55,8 @@ foreach($attendee in $attendees.attendees){
 # Exercise task generator
 foreach($feature in $exercises.features){
 
-    Write-Host $feature.title
-
     $exerciseFeature = az boards query --project $project `
         --wiql "SELECT [System.Id], [System.WorkItemType], [System.Title], [System.State], [System.AssignedTo] FROM WorkItems WHERE [Work Item Type] = 'Feature' AND [System.TeamProject] = '$project' AND [Title] = '$($feature.title)'" | ConvertFrom-Json
-
-    Write-Host $exerciseFeature
 
     if($exerciseFeature.Count -eq 0){
 
@@ -72,8 +67,6 @@ foreach($feature in $exercises.features){
     }
 
     foreach($pbi in $feature.pbis){
-
-        Write-Verbose $pbi.title
 
         foreach($attendee in $attendees.attendees){
             
@@ -91,17 +84,21 @@ foreach($feature in $exercises.features){
                 
                 $url = "https://dev.azure.com/$($organizationName)/$($project)/_apis/wit/workitems/`$Product Backlog Item?bypassRules=true&api-version=6.0"
 
+                # Need to figure out how to handle special characters in the text fields
+                #$attendeePBIWorkItem = Invoke-RestMethod -Uri $url -headers $authHeader `
+                #    -Method POST `
+                #    -Body "[{ 'op': 'add', 'path': '/fields/System.Title', 'from': null, 'value': '$($pbi.title)' }, `
+                #            { 'op': 'add', 'path': '/fields/System.Description', 'from': null, 'value': '$($pbi.description)' }, `
+                #            { 'op': 'add', 'path': '/fields/System.AssignedTo', 'from': null, 'value': '$($attendee.email)' }, `
+                #            { 'op': 'add', 'path': '/fields/Microsoft.VSTS.Common.AcceptanceCriteria', 'from': null, 'value': '$($pbi.'acceptance criteria')'}]" `
+                #    -ContentType 'application/json-patch+json'
+
+
                 $attendeePBIWorkItem = Invoke-RestMethod -Uri $url -headers $authHeader `
                     -Method POST `
-                    -Body "[{ 'op': 'add', 'path': '/fields/System.Title', 'from': null, 'value': '$($pbi.title)' },{ 'op': 'add', 'path': '/fields/System.AssignedTo', 'from': null, 'value': '$($attendee.email)' }]" `
+                    -Body "[{ 'op': 'add', 'path': '/fields/System.Title', 'from': null, 'value': '$($pbi.title)' }, `
+                            { 'op': 'add', 'path': '/fields/System.AssignedTo', 'from': null, 'value': '$($attendee.email)' }]" `
                     -ContentType 'application/json-patch+json'
-
-                #$attendeePBIWorkItem = az boards work-item create `
-                #    --title "$($pbi.title)" `
-                #    --description "$($pbi.description)" `
-                #    --assigned-to $attendee.email `
-                #    --fields "Microsoft.VSTS.Common.AcceptanceCriteria=$($pbi.'acceptance criteria')" `
-                #    --type 'product backlog item' | ConvertFrom-Json
 
                 az boards work-item relation add `
                     --id $attendeePBIWorkItem.id `

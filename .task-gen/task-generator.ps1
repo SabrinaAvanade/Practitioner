@@ -1,3 +1,5 @@
+# This isn't complete and more work needs to be done on the PBI; adding description, acceptance criteria as well as all the information around Tasks
+
 Param
 (
     [Parameter()]
@@ -82,6 +84,15 @@ foreach($feature in $exercises.features){
                 
                 $url = "https://dev.azure.com/$($organizationName)/$($project)/_apis/wit/workitems/`$Product Backlog Item?bypassRules=true&api-version=6.0"
 
+                # Need to figure out how to handle special characters in the text fields
+                #$attendeePBIWorkItem = Invoke-RestMethod -Uri $url -headers $authHeader `
+                #    -Method POST `
+                #    -Body "[{ 'op': 'add', 'path': '/fields/System.Title', 'from': null, 'value': '$($pbi.title)' }, `
+                #            { 'op': 'add', 'path': '/fields/System.Description', 'from': null, 'value': '$($pbi.description)' }, `
+                #            { 'op': 'add', 'path': '/fields/System.AssignedTo', 'from': null, 'value': '$($attendee.email)' }, `
+                #            { 'op': 'add', 'path': '/fields/Microsoft.VSTS.Common.AcceptanceCriteria', 'from': null, 'value': '$($pbi.'acceptance criteria')'}]" `
+                #    -ContentType 'application/json-patch+json'
+
                 $title = $pbi.title -replace '"', '\"'
                 $attendee = $attendee.email -replace '"', '\"'
                 $description = $pbi.description -replace '"', '\"'
@@ -109,7 +120,7 @@ foreach($feature in $exercises.features){
                     $url = "https://dev.azure.com/$($organizationName)/$($project)/_apis/wit/workitems/`$Task?bypassRules=true&api-version=6.0"
 
                     $title = $task.title -replace '"', '\"'
-                    $attendee = $task.email -replace '"', '\"'
+                    $attendee = $attendee.email -replace '"', '\"'
                     $description = $task.description -replace '"', '\"'
                     $acceptanceCriteria = $($task.'acceptance criteria') -replace '"', '\"'
 

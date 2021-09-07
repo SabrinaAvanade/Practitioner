@@ -1,6 +1,6 @@
 # Welcome to the DevOps Practitioners Series
 
-This repository provides a home base for practitioners. Here you will find information about how this series will operate, including pre-work and how practitioners can communicate with the facilitators and other students. During this course, we are going to cover the cross-functional nature of DevOps and leverage this Azure DevOps project as our collaboration hub.
+This repository provides a home base for the [Avanade DevOps Practitioners (ADP)](https://avanade.sharepoint.com/sites/HR/learn/Courses/ADP/Pages/default.aspx) series. Here you will find information about how this series will operate, including pre-work and how practitioners can communicate with the facilitators and other students. During this course, we are going to cover the cross-functional nature of DevOps and leverage this Azure DevOps project as our collaboration hub.
 
 Before the series starts, there are several quick activities that you need to complete. Please review the pre-work section.
 

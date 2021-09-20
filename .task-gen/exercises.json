@@ -57,7 +57,7 @@
         "pbiS": [
           {
             "title": "Provision SmartHotel360 Showcase",
-            "description": "Exercise 1 - PBI 1 Description",
+            "description": "<div>Turn on the Avanade SmartHotel360 showcase site in your Azure DevOps organization and Azure subscription. A quick walkthrough video can be found <a href=\"https://web.microsoftstream.com/video/42f6fb66-2dce-4a36-b54b-07b823766a25\">here</a>.</div>",
             "acceptance criteria": "<ul><li>New project created</li><li>SmartHotel360 repo cloned into new project</li><li>All build and release definitions imported</li><li>All build and releases successfully ran</li></ul>",
             "tasks": [
               {

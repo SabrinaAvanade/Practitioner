@@ -120,12 +120,12 @@ foreach($feature in $exercises.features){
                     $url = "https://dev.azure.com/$($organizationName)/$($project)/_apis/wit/workitems/`$Task?bypassRules=true&api-version=6.0"
 
                     $title = $task.title -replace '"', '\"'
-                    $attendee = $attendee.email -replace '"', '\"'
+                    #$attendee = $attendee.email -replace '"', '\"'
                     $description = $task.description -replace '"', '\"'
                     $acceptanceCriteria = $($task.'acceptance criteria') -replace '"', '\"'
 
                     $title = '{{ "op": "add", "path": "/fields/System.Title", "from": null, "value": "{0}" }}' -f $title
-                    $assignedTo = '{{ "op": "add", "path": "/fields/System.AssignedTo", "from": null, "value": "{0}" }}' -f $attendee
+                    #$assignedTo = '{{ "op": "add", "path": "/fields/System.AssignedTo", "from": null, "value": "{0}" }}' -f $attendee
                     $description = '{{ "op": "add", "path": "/fields/System.Description", "from": null, "value": "{0}" }}' -f $description
                     $acceptanceCriteria = '{{ "op": "add", "path": "/fields/Microsoft.VSTS.Common.AcceptanceCriteria", "from": null, "value": "{0}" }}' -f $acceptanceCriteria
 

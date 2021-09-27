@@ -10,7 +10,7 @@ Please ensure you have the following:
  
 _Please provide a high-level summary of the changes for the changes and notes for the reviewers_
  
-- [ ] Code passes all [lint](https://en.wikipedia.org/wiki/Lint_(software)) process
+- [ ] Code passes all [lint](https://en.wikipedia.org/wiki/Lint_(software)) process - (Optional - we will cover in more detail during series)
 - [ ] All functional and non-functional requirements are achieved
 - [ ] Communication approach is known and completed
  

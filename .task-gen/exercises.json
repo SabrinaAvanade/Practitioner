@@ -29,7 +29,7 @@
               },
               {
                 "title": "Create a service principle",
-                "description": "To connect Azure DevOps, GitHub Enterprise and other services, you must have a service principle. This task is here to help you create it."
+                "description": "<div>To connect Azure DevOps, GitHub Enterprise and other services, you must have a service principle. This task is here to help you create it. <br><br><a href=\"https://web.microsoftstream.com/video/8bbc143b-21d5-488b-912c-bae293537c2f?list=studio\">Watch 'Create Service Principal' | Microsoft Stream</a><br><br>az ad sp create-for-rbac --name \"azure-devops-spn-for-xyz\" --sdk-auth --role contributor --scopes /subscriptions/{sub-id}</div>"
               },
               {
                 "title": "Created a dedicated Azure DevOps organization",

@@ -33,7 +33,7 @@
               },
               {
                 "title": "Created a dedicated Azure DevOps organization",
-                "description": "https://aex.dev.azure.com/"
+                "description": "<div>To completed this task you need to create a new Azure DevOps organization. To do this navigate <a herf=\"https://aex.dev.azure.com\">here</a> and create the organization by clicking the \"create new organization\" button.</div>"
               },
               {
                 "title": "Make a request for free Azure Pipelines in new organizations - Required",

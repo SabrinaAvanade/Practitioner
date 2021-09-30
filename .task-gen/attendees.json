@@ -2,31 +2,10 @@
   "attendees": [
     {
       "name": {
-        "first": "keith",
-        "last": "lemon"
+        "first": "Federico",
+        "last": "Soto"
       },
-      "email": "k.lemon@avanade.com"
-    },
-    {
-      "name": {
-        "first": "adam",
-        "last": "cartwright"
-      },
-      "email": "adam.cartwright@avanade.com"
-    },
-    {
-      "name": {
-        "first": "lukas",
-        "last": "woelfinger"
-      },
-      "email": "lukas.woelfinger@avanade.com"
-    },
-    {
-      "name": {
-        "first": "scott",
-        "last": "anderson"
-      },
-      "email": "scott.anderson@avanade.com"
+      "email": "federico.soto@avanade.com"
     }
   ]
 }

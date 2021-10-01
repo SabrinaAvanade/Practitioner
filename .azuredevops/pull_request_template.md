@@ -10,9 +10,13 @@ Please ensure you have the following:
  
 _Please provide a high-level summary of the changes for the changes and notes for the reviewers_
  
-- [ ] Code passes all [lint](https://en.wikipedia.org/wiki/Lint_(software)) process - (Optional - we will cover in more detail during series)
-- [ ] All functional and non-functional requirements are achieved
-- [ ] Communication approach is known and completed
+- [ ] Add your name to the header
+- [ ] Updated the talent community, level, and region. Please ensure to remove the open and close brackets "{}"
+- [ ] Update certifcation section
+- [ ] Update DevOps experience
+- [ ] Update Biography section
+- [ ] Added image, ideally with a size of 220px by 220px
+- [ ] Validated in the Preview of the index.md file that your picture is visiable
  
 ## Related Work
  

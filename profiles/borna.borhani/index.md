@@ -1,4 +1,4 @@
-# Firstname Lastname
+Borna Borhani
 
 ![Profile](./images/profile.png)
 

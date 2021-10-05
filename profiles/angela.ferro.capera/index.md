@@ -1,6 +1,6 @@
 # Firstname Lastname
 
-![Profile](./images/profile.png)
+![Profile](/angela.ferro.capera/image/profile.jpg)
 
 * TC: Software Engineering
 * Level: Analyst

@@ -32,10 +32,6 @@
                 "description": "<div>To connect Azure DevOps, GitHub Enterprise and other services, you must have a service principle. This task is here to help you create it. <br><br><a href=\"https://web.microsoftstream.com/video/8bbc143b-21d5-488b-912c-bae293537c2f?list=studio\">Watch 'Create Service Principal' | Microsoft Stream</a><br><br><br>az ad sp create-for-rbac --name \"azure-devops-spn-for-xyz\" --sdk-auth --role contributor --scopes /subscriptions/{sub-id}<br><br><br>The script will generate a JSON outpur. Save the JSON in a file. It will be used in the next task</div>"
               },
               {
-                "title": "Created a dedicated Azure DevOps organization",
-                "description": "<div>To completed this task you need to create a new Azure DevOps organization. To do this navigate <a herf=\"https://aex.dev.azure.com\">here</a> and create the organization by clicking the \"create new organization\" button.</div>"
-              },
-              {
                 "title": "Make a request for free Azure Pipelines in new organizations - Required",
                 "description": "<div>To complete the hands-on labs in your own Azure DevOps organization, assuming it is new, you need to make a request to Microsoft to enable your organization to use the free Azure Pipelines. This task needs to be completed 1 - 2 days before the start of the class by filling out the form <a href=\"https://aka.ms/azpipelines-parallelism-request\">here</a>. You will need to provide your name, email address, the full name of the Azure DevOps organization, and that it will be private project. More information can be found <a href=\"https://devblogs.microsoft.com/devops/change-in-azure-pipelines-grant-for-private-projects\">here</a>. <div><br></div>If you do not make this request, you will get the following error - ##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request</div>"
               },

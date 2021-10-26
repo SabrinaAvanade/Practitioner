@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\profiles",
+    "\\profiles\\federico.soto",
+    "\\profiles\\raymond.li",
+    "\\profiles\\raymond.li\\image"
   ],
+  "SelectedNode": "\\profiles\\raymond.li\\index.md",
   "PreviewInSolutionExplorer": false
 }

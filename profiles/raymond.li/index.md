@@ -1,6 +1,6 @@
 # Raymond Li
 
-![Profile](/raymond.li/image/profile.jpg)
+![Profile](/raymond.li/image/profile.png)
 
 * TC: Software Engineering
 * Level: Consultant

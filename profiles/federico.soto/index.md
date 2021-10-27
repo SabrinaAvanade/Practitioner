@@ -1,6 +1,6 @@
 # Firstname Lastname
 
-![Profile](./images/profile.png)
+![Profile](/federico.soto/images/profile.jpg)
 
 * TC: Software Engineering
 * Level: Manager

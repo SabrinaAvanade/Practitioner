@@ -1,6 +1,6 @@
 # Miranda Wagner
 
-![Profile](./images/profile.png)
+![Profile](/miranda.wagner/images/profile.png)
 
 * TC: {Experience Design}
 * Level: {Sr. Consultant, Content Strategy}

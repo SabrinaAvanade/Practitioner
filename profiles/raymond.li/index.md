@@ -1,6 +1,6 @@
 # Raymond Li
 
-![Profile]/raymond.li/image/profile.jpg)
+![Profile](/raymond.li/image/profile.jpg)
 
 * TC: Software Engineering
 * Level: Consultant
@@ -10,8 +10,11 @@
 
 * .NET C#
 * SQL Server
+* HTML
+* JavaScript
 * Full Stack Developer
 * Agile Methodology
+* Azure IaaS
 
 ## Certifications
 
@@ -19,7 +22,7 @@
 
 ## DevOps Experience
 
-* Azure DevOps
+* Avanade: Bench Project
 
 ## Biography
 

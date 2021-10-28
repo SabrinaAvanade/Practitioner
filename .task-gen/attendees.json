@@ -48,6 +48,20 @@
         "last": "Li"
       },
       "email": "raymond.a.li@avanade.com"
+    },
+    {
+      "name": {
+        "first": "April",
+        "last": "Hofmann"
+      },
+      "email": "april.hofmann@avanade.com"
+    },
+    {
+      "name": {
+        "first": "Brian",
+        "last": "Mccarthy"
+      },
+      "email": "brian.a.mccarthy@avanade.com"
     }
   ]
 }

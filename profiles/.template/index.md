@@ -1,6 +1,6 @@
 # Firstname Lastname
 
-![Profile](./images/profile.png)
+![Profile](./image/profile.png)
 
 * TC: {Your Talent Community}
 * Level: {Your Level}

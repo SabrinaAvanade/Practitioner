@@ -1,6 +1,6 @@
 # Borna Borhani
 
-![Profile](/borna.borhani/images/profile.png)
+![Profile](/borna.borhani/image/profile.png)
 
 * TC: Software Engineering
 * Level: Analyst

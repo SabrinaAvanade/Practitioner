@@ -1,6 +1,6 @@
 # Federico Soto
 
-![Profile](/federico.soto/images/profile.jpg)
+![Profile](/federico.soto/image/profile.jpg)
 
 * TC: Software Engineering
 * Level: Manager

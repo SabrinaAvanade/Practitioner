@@ -76,6 +76,20 @@
         "last": "Cipra"
       },
       "email": "ariella.cipra@avanade.com"
+    },
+    {
+      "name": {
+        "first": "Margaret",
+        "last": "Farron"
+      },
+      "email": "margaret.farron@avanade.com"
+    },
+    {
+      "name": {
+        "first": "Quixari",
+        "last": "Ruffin"
+      },
+      "email": "quixari.ruffin@avanade.com"
     }
   ]
 }

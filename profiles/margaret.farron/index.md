@@ -1,6 +1,6 @@
 # Firstname Lastname
 
-![Profile](./image/m-farron-bio-headshot.png)
+![Profile](./image/profile.png)
 
 * TC: Experience Design
 * Level: Consultant

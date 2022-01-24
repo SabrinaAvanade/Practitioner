@@ -1,29 +1,28 @@
 # Firstname Lastname
 
-![Profile](./image/profile.png)
+![Profile](./image/m-farron-bio-headshot.png)
 
-* TC: {Your Talent Community}
-* Level: {Your Level}
-* Region: {Your Region}
+* TC: Experience Design
+* Level: Consultant
+* Region: US West
 
 ## Skills
 
-* Skill 1
-* Skill 2
-* Skill 3
+* Visual Design
+* UX Design
+* Javscript
+* HTML/CSS
+* React
+* Java
 
 ## Certifications
 
-* Certification 1
-* Certification 2
-* Certification 3
+* None yet!
 
 ## DevOps Experience
 
-* DevOps Experience 1
-* DevOps Experience 2
-* DevOps Experience 3
+* None yet!
 
 ## Biography
 
-Bio
+I'm a visual and UX designer that is transitioning to front end development. I have extensive experience in web and interactive on the design side and am excited to apply those skills and my development skills to Avanade projects!

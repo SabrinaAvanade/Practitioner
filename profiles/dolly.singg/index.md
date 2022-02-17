@@ -1,6 +1,6 @@
 # Firstname Lastname
 
-![Profile](./image/profile.png)
+![Profile](./image/profile.jpg)
 
 * TC:Software TC Engineer
 * Level: Sr. Analyst

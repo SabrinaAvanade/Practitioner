@@ -10,7 +10,7 @@
 
 * Data Architect
 * BI - Power BI, OBIEE11g 
-* ETL - MS SSIS, DataStage, Informatica, SAP BODS & SSIS
+* ETL - MS SSIS, DataStage, Informatica, SAP BODS & ADF
 * Cloud - Azure (Azure Data Factory, Azure SQL server, Azure Synapse, Azure Data Bricks, Data Lake, Azure log analytics, Cosmos etc. )
 * Data Quality - SAP Information Steward technologies
 * Agile - JIRA, TFS/AzureDevOps

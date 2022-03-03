@@ -111,6 +111,20 @@
         "last": "Chandupatla"
       },
       "email": "c.chandupatla@avanade.com"
+    },
+    {
+      "name": {
+        "first": "Jason",
+        "last": "Gillow"
+      },
+      "email": "jason.d.gillow@avanade.com"
+    },
+    {
+      "name": {
+        "first": "Sabrina",
+        "last": "Gray"
+      },
+      "email": "sabrina.gray@avanade.com"
     }
   ]
 }

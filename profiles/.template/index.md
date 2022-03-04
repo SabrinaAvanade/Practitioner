@@ -2,21 +2,20 @@
 
 ![Profile](./image/profile.png)
 
-* TC: {Your Talent Community}
-* Level: {Your Level}
-* Region: {Your Region}
-
+* TC: InfraStructure
+* Level: Sr Analyst
+* Region: West
 ## Skills
 
-* Skill 1
-* Skill 2
-* Skill 3
+* Azure
+* Windows
+* Microsoft 365
 
 ## Certifications
 
-* Certification 1
-* Certification 2
-* Certification 3
+* AZ-100
+* MS-900
+* MS-700
 
 ## DevOps Experience
 

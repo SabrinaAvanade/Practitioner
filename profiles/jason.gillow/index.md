@@ -2,9 +2,9 @@
 
 ![Profile](./image/profile.jpg)
 
-* TC: {Infrastructure - Modern Workplace Engineering}
-* Level: {Sr. Consultant}
-* Region: {West}
+* TC: Infrastructure - Modern Workplace Engineering
+* Level: Sr. Consultant
+* Region: West
 
 ## Skills
 
